@@ -8,8 +8,9 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <div class="container-navbar">
+
+    <header class="">
+        <div class="container-navbar container-center">
             <div class="logo">
                 Header Logo
             </div>
@@ -21,19 +22,20 @@
                 </ul>
             </nav>
         </div>
-        <div class="content-header">
+        <div class="content-header container-center">
             <div class="description-header">
                 <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button>Sign up</button>
+                <button class="blue-button">Sign up</button>
             </div>
             <div class="image-header">
-                <img src="img/image.jpg" alt="This is a placeholder for an image">
+                <!-- <img src="img/image.jpg" alt="This is a placeholder for an image"> -->
+                This is a placeholder for an image
             </div>
         </div>
     </header>
 
-    <main>
+    <main class="">
         <h2>Some random information</h2>
         <div class="container-articles">
             <article class="item">
@@ -70,21 +72,25 @@
             </article>
         </div>
     </main>
-
+    
     <section class="testimonials">
         <blockquote>
             This is an inspiting quote or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.
             <span>-Thor, God of Thunder</span>
         </blockquote>
     </section>
-
-    <section class="sing-up">
+    <section class="sing-up container-center">
         <div class="description-singup">
             <h4>Call to action! It's time!</h4>
             <p>Sign up fot out product by clicking that button right over there!</p>
         </div>
-        <button>Sign up</button>
+        <div class="container-button">
+        <button class="blue-button button-su">Sign up</button>
+    </div>
     </section>
 
+    <footer>
+        <p>Copyright &copy; The Odin Project AIHC 2021</p>
+    </footer>
 </body>
 </html>
